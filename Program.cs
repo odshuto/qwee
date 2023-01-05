@@ -51,6 +51,6 @@ do
 Console.WriteLine(i);
 i = i + 2;
 }
-while(i < n);
+while(i <= n && i % 2 == 0);
 
 
